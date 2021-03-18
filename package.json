@@ -1,0 +1,31 @@
+{
+  "name": "express-workshop",
+  "version": "1.0.0",
+  "description": "An API REST using express.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jovangb/express-workshop.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "express",
+    "node",
+    "js"
+  ],
+  "author": "Jovan Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jovangb/express-workshop/issues"
+  },
+  "homepage": "https://github.com/jovangb/express-workshop#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
