@@ -4,7 +4,9 @@ const app = express();
 const pokemon = require('./routes/pokemon');
 const user = require('./routes/user');
 const auth = require('./middleware/auth');
+const cors = require('./middleware/cors');
 
+app.use(cors);
 app.use(morgan('dev')); 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true}));
